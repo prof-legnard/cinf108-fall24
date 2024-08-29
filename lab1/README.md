@@ -1,7 +1,7 @@
 # Lab 1 Instructions
 
 On Brightspace in the "Lab 1" assignment. Submit a python file named `{last_name}_{first_name}_lab1.py`. Make sure the file ends with py, so for example `legnard_tom_lab1.py`
-Write solutions to the following questions in your python script. A template will be provided with where to insert your answers.
+Write solutions to the following questions in your python script. A template will be provided to work from, feel free to copy the starter code and comments there into your `.py`file.
 
 1. Create a variable called `name` with your name (can be fist name or fist and last)
 2. Print the string "Hi my name is `{your name}`, this is my first print statement" in three different ways. Refer to the lecture notes on different ways of printing strings.
