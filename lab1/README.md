@@ -8,11 +8,11 @@ Write solutions to the following questions in your python script. A template wil
 3. Copy your code from #1, edit the strings so that they match the format "Hi my name is {name}, this is print statement # {n}", where n is an integer value. **Make sure that the number you are printing is of type `int`**
      Add an extra line and 4 spaces to each print statement so the output looks like this:
 ```
-"Hi my name is Tom, this is print statement # 1."
+Hi my name is Tom, this is print statement # 1.
 
-    "Hi my name is Tom, this is print statement # 2."
+    Hi my name is Tom, this is print statement # 2.
 
-        "Hi my name is Tom, this is print statement # 3."
+        Hi my name is Tom, this is print statement # 3.
 ```
 
 4. How many hours are in the month of September? Write some python code to show your work and calculate the value. Print the solution with the following statement, where `{num_days}` is the integer value of the number of days in September.
