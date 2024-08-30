@@ -23,9 +23,9 @@ There are {num_days} days in September
 5. What  is 101 divided by 4, rounded down to the nearest integer? What is the remainder (modulo)?
 6. Show your calculation in python and print and label both values in one statement.
 
-BONUS (2 points): Print your name in block letters. each letter 
-should be at least 4 lines high:
-HINT: What is ASCII art?
+BONUS (2 points): Print your name in block letters. using Python. Each letter should be at least 4 lines high. Brute forcing or using online ASCII text generators will not count
+
+&nbsp;HINT: What is ASCII art? How can you take text as input and make it display in ASCII block letters. The Magic Conch can do it, see if you can look up how and solve it to make your name look like the output below.
 
 Example output:
 ```
