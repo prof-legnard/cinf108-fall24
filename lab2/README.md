@@ -2,6 +2,8 @@
 Write a program that let's the user running it play a game where they have to guess a number between 1 and 25.
 The player gets 5 guesses to guess the number, and potentially 6 if they guess close to the chosen number.
 
+Don't forget to use the [template code](https://github.com/prof-legnard/cinf108-fall24/blob/main/lab2/lab2_template.py)
+
 ## Rules:
 - Name your `.py` file according to the usual expected convention: `lastName_firstName_lab2.py`
 - The player should be able to run the game within the terminal or command prompt with either:
