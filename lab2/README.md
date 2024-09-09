@@ -43,3 +43,49 @@ Don't forget to use the [template code](https://github.com/prof-legnard/cinf108-
 4. once this is working, what other conditions need to be met? what other conditional statements can we use to test them? Refer to the lecture notes on conditional statements.
 5. If you're not sure how to start, or what to do next. Reread the rules, break the problem into smaller chunks. Which of the above conditions can you meet, while ignoring the others?
 6. If you're still stuck: **Reach out to the instructor and ask for help.** You have resources such as Brightspace, Slack, and Email at your disposal.
+
+## Example Output for the game:
+
+### The player loses
+```
+Guess the number between 1 and 25. You have 5 guesses.
+Guess # 1, 5 remaining 
+[enter a # from 1-25]: 3
+Guess incorrect, guess again.
+Guess # 2, 4 remaining 
+[enter a # from 1-25]: 18
+Guess incorrect, guess again.
+Guess # 3, 3 remaining 
+[enter a # from 1-25]: 19
+Guess incorrect, guess again.
+Guess # 4, 2 remaining 
+[enter a # from 1-25]: 12
+You are close, +1 guess, you now have 2 remaining.
+Guess # 5, 2 remaining 
+[enter a # from 1-25]: 13
+You are close, you now have 1 remaining.
+Guess # 6, 1 remaining 
+[enter a # from 1-25]: 14
+Guess incorrect, guess again.
+The correct number was 10. You lose.
+```
+
+### The player wins:
+```
+Guess the number between 1 and 25. You have 5 guesses.
+Guess # 1, 5 remaining 
+[enter a # from 1-25]: 14
+You are close, +1 guess, you now have 5 remaining.
+Guess # 2, 5 remaining 
+[enter a # from 1-25]: 15
+Guess incorrect, guess again.
+Guess # 3, 4 remaining 
+[enter a # from 1-25]: 13
+You are close, you now have 3 remaining.
+Guess # 4, 3 remaining 
+[enter a # from 1-25]: 12
+You are close, you now have 2 remaining.
+Guess # 5, 2 remaining 
+[enter a # from 1-25]: 11
+You guessed the correct number 11, you win!
+```
