@@ -36,7 +36,7 @@ print(stock_dict["MSFT"]["initial_price"])
 
 
 #####
-# 4. Which company name (not symbol) had the highest stock price in 2002? 
+# 4. Which company name (not symbol) had the highest stock price in 2002? Which company had the lowest?
 #### ADD CODE HERE
 
 
