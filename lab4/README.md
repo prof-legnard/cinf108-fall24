@@ -1,4 +1,4 @@
-# Lab 3
+# Lab 4
 
 For this Python Exercise, you will work with an already written Python script and add some additional functionality. In `lab4_template.py` I have a written python script that will read in the contents of `song_list.txt`, select 12 songs, and add them to a new file called `setlist.txt`
 
