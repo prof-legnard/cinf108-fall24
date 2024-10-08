@@ -1,6 +1,6 @@
 # Lab 4
 
-For this Python Exercise, you will work with an already written Python script and add some additional functionality. In `lab4_template.py` I have a written python script that will read in the contents of `song_list.txt`, select 12 songs, and add them to a new file called `setlist.txt`
+For this Python Exercise, you will work with an already written Python script and add some additional functionality. In `lab4_template.py` I have a written python script that will read in the contents of `song_list.txt`, select 12 songs, and print them in the command line. Your first task in this assignment will be to add them to a new file called `setlist.txt` by using python to write each song on a separate line.
 
 Read from a list of songs called "song_list.txt". Work with an already existing code base and add some improvements. Write the setlist to a file called `setlist.txt`. Each song should be on it's own line with the number associated with it starting at 1. You have the set `selected_songs` already provided for you in the lab template code if you start from that point.
 
@@ -8,6 +8,7 @@ Start by making a folder for lab4 on your computer, and placing both files in th
 
 Complete the following exercises in Python to include in your submissio `.py`. Try to structure your code according to the PEP-8 standard. You should run `lab4_tempate.py` to make sure to start you can print out 12 songs (this part is already written.) Then save a copy of this template with the normal convention of `lastname_firstname_lab4.py1`. Write additional code in your submission file to solve the following:
 
+1. Write the 12 songs in selected songs to a file called `setlist.txt`
 1. Add a line indicating a set break halfway through the set (what index would be applied). A set break can be indicated by text such as SET BREAK or lines or characters splitting the first half of the set list from the second
 i.e. ####, ------, %%%%%.  See `demo_setlist.txt` for example output.
 1.  Sometimes the band will be brought on for an encore, write and call a function to read in setlist.txt, and
