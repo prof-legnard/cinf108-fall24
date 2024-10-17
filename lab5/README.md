@@ -1,9 +1,7 @@
 # Lab 5
 
-For this week's lab we are going to make some basic art in python  using the `turtle` library. You can install `turtle` with:
-```bash
-pip install turtle
-```
+For this week's lab we are going to make some basic art in python  using the `turtle` library. `turtle` should come prepackaged with your installation of Python. The `turtle` library is built on top of Python's [tkinter](https://docs.python.org/3/library/tk.html), the standard windowling toolkit for creating graphical user interfaces (GUIs).
+
 
 The objective of this assignment will be to make **two designs or graphics** using turtle and print them on a canvas created by the turtle library when called upon. Try creating a basic shape first:
 ```python
