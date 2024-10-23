@@ -1,5 +1,4 @@
 import turtle
-from PIL import Image
 t = turtle.Turtle()
 t.speed(0)
 color_size = [('red',50), ('blue', 100), ('green',150)]
