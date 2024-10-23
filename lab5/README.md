@@ -53,7 +53,7 @@ I have provided two python scripts with example turtle graphics you can work fro
 
 #### Links
 1. [Turtle Docs](https://docs.python.org/3/library/turtle.html#module-turtle)
-1. [G4G, creating basic filled shapes](https://www.geeksforgeeks.org/)draw-color-filled-shapes-in-turtle-python/
+1. [G4G, creating basic filled shapes](https://www.geeksforgeeks.org/draw-color-filled-shapes-in-turtle-python/)
 1. [Fibonacci pattern with Turtle](https://www.geeksforgeeks.org/python-plotting-fibonacci-spiral-fractal-using-turtle/)
 
 
