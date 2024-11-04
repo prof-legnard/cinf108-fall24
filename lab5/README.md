@@ -38,7 +38,7 @@ Once you can create a shape, the task will be to write two python scripts utiliz
 ## Graphic Requirements
 1. Each turtle graphic shall have at least two types of shapes
 2. Each turtle graphic should have at least 4 shapes total (of two types or more)
-3. Each turtle graphic should use at least three different colors.
+3. Each turtle graphic should use at least three different colors  (white background doesn't count as a color).
 4. Use at least one loop (for/while) to dynamically generate shapes
 5. In either of your graphic scripts, have at least one filled shape, please try to use a color other than the standard black.
 
