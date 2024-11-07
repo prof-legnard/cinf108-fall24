@@ -1,9 +1,9 @@
 # Lab 6 - Exploring data with Pandas and Python
 
 This lab is meant to test your critical thinking ability, creativity, as well as force you think outside the box of following directions in order to solve a problem or find insights in a dataset. You will be graded on your ability to find insight from ddata, present it,
-as well as your ability to work with Python, and the pandas data-analysis library.  You may want to review and use the Demo Jupyter Notebook from the Lecture Notes section on Brightspace as a starting point.
+as well as your ability to work with Python, and the pandas data-analysis library.  You may want to review and use the Demo Jupyter Notebook, or the Week 10 Pandas DEMO jupyter notebook from the Lecture Notes section on Brightspace as a starting point.
 
-### Step 1. Get the Data (2 points)
+### Step 1. Get the Data (5 points)
 - Find a public dataset to do your analysis on. Make sure it's a manageable # of rows, or only one file if you're not comfortable with reading in more than one into one dataframe.
 - Create a jupyter notebook file called `lastname_firstname_lab6.ipybnb`
 - Use pandas to read the dataset (either from a file on your computer or from a public endpoing) into a `Dataframe`.
@@ -28,13 +28,12 @@ Your dataset may be missing values, have nulls in certain places, or have text d
 - Use methods like `.dropna`, `.fillna` to get rid of empty or null values.
 - Use advanced text processing methods like `split`, `strip`, or even regular expressions to clean up numerical fields that may have strings in them. Review the lecture notes on  Advanced String processing, and review [this guide](https://realpython.com/python-data-cleaning-numpy-pandas/) on cleaning data in Python
 
-### Step 4 Discover Insights (5 points)
+### Step 4 Discover Insights and graph your data (10 points)
 
 Comb throught the pandas documentation to find at least 2 trends in your data. What do I mean by trends? If you refer back to the Iris dataset we practiced with in class, we graphed things like sepal length vs petal length.
 
-A good starting point will be to look at the correlation between columns (variables) in your dataset. Create a heatmap using seaborn or matplotlib. You may need to create a new dataframe with _only_ the numerical columns.
+A good starting point will be to look at the correlation between columns (variables) in your dataset. **Create a heatmap using seaborn or matplotlib.** You may need to create a new dataframe with _only_ the numerical columns.
 
-### Graph your data (10 points)
 Of your two findings or relationships you found between two data points, graph your findings. You may use, [matplotlib](https://matplotlib.org/stable/plot_types/index.html), or [seaborn](https://seaborn.pydata.org/). Review some of the documentation and example graphs to find the right way to represent your findings.
 
 **Provide graph titles, labels for your X and Y axis, and a legend or labels of subcategory of data you graph.**
@@ -45,6 +44,7 @@ Ex3. A box and whisker plot showing statistics for home sales for different type
 
 The sky is the limit here, but make sure you are documentating what you are analysing as well as your findings. If you are having trouble figuring out how to identify trends, send me an email or Slack message with a link to your dataset and we can find things for you to graph.
 
+For this step, I am looking for three graphs, the heat map, and two graphs showing two different analytical trends.
 
 ### Step 5. Presenting and organizing your findings (3 points)
 All cells utilizing Python should have a markdown cell with a heading and optionally, a description of the code below it. Go back and clean up all of your code cells, remove commented out code you don't need, and add markdown cells above them with headers:
@@ -56,4 +56,6 @@ All cells utilizing Python should have a markdown cell with a heading and option
 #### or this
 
 For an introduction on markdown headings, look at the source code for this file, [and review this guide on Markdown Basics](https://www.markdownguide.org/basic-syntax/).
+
+As always, ask questions if you get stuck!
 
