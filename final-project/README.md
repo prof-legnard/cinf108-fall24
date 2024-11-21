@@ -1,8 +1,8 @@
 # The Final Project
 
-Your final task for the course will be to create a TODO List command line interface (CLI) tool in Python. The CLI tool will allow you to create.
+Your final task for the course will be to create a TODO List command line interface (CLI) tool in Python. The CLI tool will allow you to create, complete, and edit items written out in a "TODO list".
 
-You will be utilizing all of the skill and your knowledge of Python you have required so far in the course to create this CLI.
+You will be utilizing all of the skill and your knowledge of Python you have acquired so far in the course to create this CLI.
 
 You should be able to interact with this TODO list utility from the command line. I will leave it up to you if you'd like to use `sys.argv`, `argparse`, or a combination of the two. Using `argparse` will require more code but will allow for more flexible usage of your tool.
 
