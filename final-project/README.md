@@ -1,6 +1,6 @@
 # The Final Project
 
-Your final task for the course will be to create a TODO List command line interface (CLI) tool in Python. The CLI tool will allow you to create, complete, and edit items written out in a "TODO list".
+Your final task for the course will be to create a TODO List command line interface (CLI) tool in Python. The CLI tool will allow you to create, change completion status, and edit items written out in a "TODO list".
 
 You will be utilizing all of the skill and your knowledge of Python you have acquired so far in the course to create this CLI.
 
@@ -16,7 +16,7 @@ You should be able to interact with this TODO list utility from the command line
    -  and a `due_date` value (`str` type is fine, but look into `datetime`).
 4. With defined input arguments,your TODO list CLI tool should be able to modify your final TODO list file:
    - add new items to your TODO list file
-   - "complete" or remove items that no longer need to be on the list
+   - change the status of the TODO item (incomplete/in progress/complete)
    - update previously added TODO items (description, date)
 5. Add an option to be able to create or update a *separate* TODO list file with a different name (TODO2.txt, work-todo.csv, chores.csv, etc...)
     - your CLI tool can write to a file like `TODO.txt` by default, but you should be able to manage multiple todo lists with a separate argument.
@@ -30,5 +30,5 @@ You should be able to interact with this TODO list utility from the command line
 
 ### BONUS (10 points)
 Write a class or multiple classes to manage TODO items. Implement methods and attributes to manage writing to your TODO list files, displaying information about TODO items, etc.
-Utilizing a class instance to add/drop/edit TODO list items loaded in from a file would be sufficient for getting full credit for the bonus. YOUR CODE MUST STILL WORK PROPERLY TO GET CREDIT FOR THE BONUS.
+Utilizing a class instance to add/change status/edit TODO list items loaded in from a file would be sufficient for getting full credit for the bonus. YOUR CODE MUST STILL WORK PROPERLY TO GET CREDIT FOR THE BONUS.
 
