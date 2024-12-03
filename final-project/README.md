@@ -13,11 +13,11 @@ You should be able to interact with this TODO list utility from the command line
    - an `id` value
    -  ad `topic` or `category` of the type of task (think of how you would categorize your assignments due for various classes) 
    -  a `description` of what the task is doing, 
-   -  and a `due_date` value (`str` type is fine, but look into `datetime`).
+   -  status of the TODO item (incomplete/in progress/complete)
 4. With defined input arguments,your TODO list CLI tool should be able to modify your final TODO list file:
    - add new items to your TODO list file
    - change the status of the TODO item (incomplete/in progress/complete)
-   - update previously added TODO items (description, date)
+   - update previously added TODO items (description, date, category, etc.)
 5. Add an option to be able to create or update a *separate* TODO list file with a different name (TODO2.txt, work-todo.csv, chores.csv, etc...)
     - your CLI tool can write to a file like `TODO.txt` by default, but you should be able to manage multiple todo lists with a separate argument.
 
