@@ -2,7 +2,7 @@
 
 You can use this Python script to estimate your grade for the semester (out of 100%)
 
-1. Enter your grades into each assignment record in the `example_grades.csv` file
+1. Enter your grades into each assignment record in the `grades-template.csv` file
 2. Make sure you include any bonus values you got from the bonus lab, or the final project, these are optional though
 3. run the script `python3 grade_calc.py`
 
